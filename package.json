@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "FOOBAR=test ts-node test/index.ts",
+    "build": "typings bundle . --out bundle",
+    "prepublish": "typings install"
+  },
+  "devDependencies": {
+    "envobj": "^1.0.1",
+    "ts-node": "^0.7.2",
+    "tslint": "^3.7.4",
+    "tslint-config-typings": "^0.2.3",
+    "typescript": "^1.8.9",
+    "typings": "^0.8.1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "envobj",
+  "main": "index.d.ts",
+  "version": "1.0.1",
+  "homepage": "https://github.com/matthewmueller/envobj",
+  "ambientDevDependencies": {
+    "node": "registry:dt/node#4.0.0+20160412142033"
+  }
+}
