@@ -1,5 +1,6 @@
 {
-  "private": true,
+  "name": "@types/envobj",
+  "version": "1.0.1",
   "scripts": {
     "test": "FOOBAR=test ts-node test/index.ts",
     "build": "typings bundle . --out bundle",
